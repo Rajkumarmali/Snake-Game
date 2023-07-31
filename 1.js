@@ -110,10 +110,10 @@ function update()
    // console.log("update")
     snake.move()
     eatApple()
-    //checkHitWall();
+    checkHitWall();
 }
 
-/*function checkHitWall()
+function checkHitWall()
 {
     var headTail = snake.tail[snake.tail.length-1]
     if(headTail.x==- snake.size)
@@ -133,7 +133,7 @@ function update()
         headTail.y = 0
     }
 
-}*/
+}
 
 function eatApple()
 {
